@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APTENCE Test Automation Test Suite">
+  <test name="APTENCE Test Cases">
+   <classes>
+    <class name="com.aptence.qa.testcases.LoginPageTest"></class>
+    <class name="com.aptence.qa.testcases.HomePageTest"></class>
+    <class name="com.aptence.qa.testcases.ProfilePageTest"></class>
+    <class name="com.aptence.qa.testcases.ContactUsPageTest"></class>
+    <class name="com.aptence.qa.testcases.StorePageTest"></class>
+   </classes>
+  </test>
+</suite>
