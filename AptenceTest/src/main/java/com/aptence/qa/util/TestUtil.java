@@ -20,8 +20,8 @@ public class TestUtil extends TestBase{
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 20;
 	
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\jasha\\Documents\\eclipse-workspace\\AptenceTest\\"
-			+ "src\\main\\java\\com\\aptence\\qa\\testdata\\AptenceTestData.xlsm";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Jashandeep\\Documents\\GIT\\AutomationPractice\\"
+			+ "AptenceTest\\src\\main\\java\\com\\aptence\\qa\\testdata\\AptenceTestData.xlsm";
 
 	static Workbook book;
 	static org.apache.poi.ss.usermodel.Sheet sheet;

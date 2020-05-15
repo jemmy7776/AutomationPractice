@@ -25,6 +25,7 @@ public class ContactUsPage extends TestBase{
 	}
 	
 	public void enterMessage(String message) {
+		driver.findElement(By.xpath("//textarea[@placeholder='Your Message']")).click();
 		driver.findElement(By.xpath("//textarea[@placeholder='Your Message']")).sendKeys(message);
 		driver.findElement(By.xpath("//button[text()='Submit']")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='Your Message Recieved']")));

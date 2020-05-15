@@ -35,7 +35,6 @@ public class ContactUsPageTest extends TestBase{
 	@Test(priority=2)
 	public void sendMessage() {
 		contactus.enterMessage("Hello There");
-		
 	}
 	
 	@AfterMethod

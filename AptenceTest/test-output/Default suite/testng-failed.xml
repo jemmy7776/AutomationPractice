@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.aptence.qa.testcases.LeaderboardPageTest">
+      <class name="com.aptence.qa.testcases.SignUpPageTest">
         <methods>
-          <include name="verifyWeeklyTopperTest"/>
+          <include name="verifySignUpTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.aptence.qa.testcases.LeaderboardPageTest -->
+      </class> <!-- com.aptence.qa.testcases.SignUpPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

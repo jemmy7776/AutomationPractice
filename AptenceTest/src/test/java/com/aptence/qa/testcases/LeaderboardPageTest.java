@@ -31,6 +31,11 @@ public class LeaderboardPageTest extends TestBase{
 		homepage.clickOnleaderboardPage();
 		leaderboardpage.verifyWeeklyTopper();
 	}
+	@Test
+	public void verifyUserRankTest() {
+		homepage.clickOnleaderboardPage();
+		leaderboardpage.verifyUsersRank();
+	}
 //	@AfterMethod
 //	public void tearDown() {
 //		driver.quit();

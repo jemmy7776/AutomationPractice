@@ -25,7 +25,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\jasha\\Documents\\eclipse-workspace\\AptenceTest"
+			FileInputStream fis = new FileInputStream("C:\\Users\\Jashandeep\\Documents\\GIT\\AutomationPractice\\AptenceTest"
 					+ "\\src\\main\\java\\com\\aptence\\qa\\config\\config.properties");
 			prop.load(fis);
 		}catch(FileNotFoundException e) {
@@ -38,7 +38,7 @@ public class TestBase {
 	public static void initialization() {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\jasha\\Documents\\eclipse-workspace\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jashandeep\\eclipse-workspace\\chromedriver.exe");
 			driver = new ChromeDriver();
 			
 		}
